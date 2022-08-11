@@ -1,0 +1,741 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "modificarDocProrrogaEstudiante",
+  "name" : "modificarDocProrrogaEstudiante",
+  "lastUpdate" : 1655924155140,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "f9499d3d-cd61-41ac-b95b-38e080927c15",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Modificar los documentos de la solicitud de prorroga para el protocolo del trabajo de titulación"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "ab4bb618-9166-477e-95c0-019147840a17",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "<i> Estimado(a) estudiante, la documentación o información proporcionada contiene algunos errores que deben revisarse, sírvase del comentario emitido por el analista de titulación para solucionarlos, una vez realizado los cambios ingrese la información y la documentación nuevamente.</i>"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "fd98d6f4-184d-493b-91a0-d6af0822656e",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "059e79a7-6e56-4496-a309-d49ce2c30330",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "f26243c7-83c3-4367-8cb0-6abadacd4ba1",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<b>Comentario explicativo de las modificaciones a realizarse</b>\n<br>{{titulacion.coment_doc_prorroga_proto_correcta}}\n{{datos}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "ee6952c2-563f-46f7-b7de-70ccafc207d8",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              }
+            ],
+            [
+              {
+                "type" : "formContainer",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "a9d12af2-fad6-4bbd-b9a8-a5739c065929",
+                "hasValidationError" : false,
+                "id" : "pbFormContainer",
+                "container" : {
+                  "type" : "container",
+                  "dimension" : {
+                    "xs" : 12
+                  },
+                  "propertyValues" : { },
+                  "reference" : "4e825584-5db3-4139-9a4f-3432bfa5b8e9",
+                  "hasValidationError" : false,
+                  "id" : "pbContainer",
+                  "rows" : [
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "Documentación necesaria para aprobar la prorroga del trabajo de titulación"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 4"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          }
+                        },
+                        "reference" : "2eeb2d39-8148-4805-a742-4964e2d63446",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "readOnly" : {
+                            "type" : "constant",
+                            "value" : true
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "minLength" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "maxLength" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Tema de trabajo de titulación"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 4
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "titulacion.tema_tesis"
+                          }
+                        },
+                        "reference" : "88d1a60c-bd66-47b4-a955-6c60cfbf6c2f",
+                        "hasValidationError" : false,
+                        "id" : "pbTextarea"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 6
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : true
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Solicitud expresa al director de carrera y por su intermedio a la comisión de titulación"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 5
+                          },
+                          "placeholder" : {
+                            "type" : "interpolation"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : "../API/formFileUpload"
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "context.doc_prorro_proto_soli_director_ref.newValue"
+                          },
+                          "errorContent" : {
+                            "type" : "variable",
+                            "value" : ""
+                          }
+                        },
+                        "reference" : "0b3332d9-a697-4e87-9728-fbb9ecc08b97",
+                        "hasValidationError" : false,
+                        "id" : "pbUpload"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : true
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Solicitud expresa a la comisión de titulación"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 5
+                          },
+                          "placeholder" : {
+                            "type" : "interpolation"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : "../API/formFileUpload"
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "context.doc_prorro_proto_justificacion_ref.newValue"
+                          },
+                          "errorContent" : {
+                            "type" : "variable",
+                            "value" : ""
+                          }
+                        },
+                        "reference" : "87bac00c-1301-47f1-bed9-bac0195b59fd",
+                        "hasValidationError" : false,
+                        "id" : "pbUpload"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : true
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Informe de pertinencia del tutor"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 5
+                          },
+                          "placeholder" : {
+                            "type" : "interpolation"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : "../API/formFileUpload"
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "context.doc_prorro_proto_inf_pertinencia_ref.newValue"
+                          },
+                          "errorContent" : {
+                            "type" : "variable",
+                            "value" : ""
+                          }
+                        },
+                        "reference" : "f5061e04-087d-41ae-996f-9e834cbb5eaa",
+                        "hasValidationError" : false,
+                        "id" : "pbUpload"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "7e2f2e18-6fe6-48f5-b240-135d6509a765",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "c2dbdb73-bd14-4487-a792-fb162bc6200b",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "fe787967-5a7f-4b20-830c-b4be85558db9",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "149eb5fc-4ce3-4c8c-b838-8c4e148b48e3",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.context ){",
+        "\treturn {",
+        "\t\tdoc_prorro_proto_soli_directorDocumentInput: {",
+        "\t\t\tid: $data.context.doc_prorro_proto_soli_director_ref && $data.context.doc_prorro_proto_soli_director_ref.id ? $data.context.doc_prorro_proto_soli_director_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_prorro_proto_soli_director_ref.newValue && $data.context.doc_prorro_proto_soli_director_ref.newValue.filename ? $data.context.doc_prorro_proto_soli_director_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_prorro_proto_soli_director_ref.newValue && $data.context.doc_prorro_proto_soli_director_ref.newValue.tempPath ? $data.context.doc_prorro_proto_soli_director_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_prorro_proto_soli_director_ref.newValue && $data.context.doc_prorro_proto_soli_director_ref.newValue.contentType ? $data.context.doc_prorro_proto_soli_director_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_prorro_proto_justificacionDocumentInput: {",
+        "\t\t\tid: $data.context.doc_prorro_proto_justificacion_ref && $data.context.doc_prorro_proto_justificacion_ref.id ? $data.context.doc_prorro_proto_justificacion_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_prorro_proto_justificacion_ref.newValue && $data.context.doc_prorro_proto_justificacion_ref.newValue.filename ? $data.context.doc_prorro_proto_justificacion_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_prorro_proto_justificacion_ref.newValue && $data.context.doc_prorro_proto_justificacion_ref.newValue.tempPath ? $data.context.doc_prorro_proto_justificacion_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_prorro_proto_justificacion_ref.newValue && $data.context.doc_prorro_proto_justificacion_ref.newValue.contentType ? $data.context.doc_prorro_proto_justificacion_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_prorro_proto_inf_pertinenciaDocumentInput: {",
+        "\t\t\tid: $data.context.doc_prorro_proto_inf_pertinencia_ref && $data.context.doc_prorro_proto_inf_pertinencia_ref.id ? $data.context.doc_prorro_proto_inf_pertinencia_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue && $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue.filename ? $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue && $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue.tempPath ? $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue && $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue.contentType ? $data.context.doc_prorro_proto_inf_pertinencia_ref.newValue.contentType : null",
+        "\t\t}",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "titulacion" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.titulacion_ref.link}}"
+      ],
+      "advancedOptions" : { },
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "a0d8b81b-851f-4468-9632-a3880c786bdc",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

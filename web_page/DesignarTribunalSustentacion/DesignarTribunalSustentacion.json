@@ -1,0 +1,1038 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "DesignarTribunalSustentacion",
+  "name" : "DesignarTribunalSustentacion",
+  "lastUpdate" : 1655484827898,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "f83f5627-5e49-4f45-b570-982f5b101549",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Designar tribunal de sustentación"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "4bd6b377-d182-473c-bfa6-d5a4b25513b7",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "81ec309b-d7fc-4ecc-8643-4a6f03a172a3",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "4d6e26c3-fbc0-411b-af71-ef40c9a05498",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "1271f5d6-af1f-4851-a837-0de3deef8862",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "formContainer",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "197a0a49-06d6-4cd5-9b5c-1d8937054b12",
+                "hasValidationError" : false,
+                "id" : "pbFormContainer",
+                "container" : {
+                  "type" : "container",
+                  "dimension" : {
+                    "xs" : 12
+                  },
+                  "propertyValues" : { },
+                  "reference" : "c73724a5-7b77-425b-89b2-2f67839017d5",
+                  "hasValidationError" : false,
+                  "id" : "pbContainer",
+                  "rows" : [
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "Documentos del trabajo de titulación"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 4"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          }
+                        },
+                        "reference" : "5270453c-3083-4cb6-98ff-941ef455342d",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "readOnly" : {
+                            "type" : "constant",
+                            "value" : true
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "minLength" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "maxLength" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Tema del trabajo de titulación"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 4
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "titulacion.tema_tesis"
+                          }
+                        },
+                        "reference" : "846a7480-fd78-4f0d-b48d-70942f483b3f",
+                        "hasValidationError" : false,
+                        "id" : "pbTextarea"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "minLength" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "maxLength" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "readOnly" : {
+                            "type" : "constant",
+                            "value" : true
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Modalidad del trabajo de titulación"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 4
+                          },
+                          "placeholder" : {
+                            "type" : "interpolation"
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "titulacion.modalidad"
+                          },
+                          "type" : {
+                            "type" : "constant",
+                            "value" : "text"
+                          },
+                          "min" : {
+                            "type" : "constant"
+                          },
+                          "max" : {
+                            "type" : "constant"
+                          },
+                          "step" : {
+                            "type" : "constant",
+                            "value" : 1
+                          }
+                        },
+                        "reference" : "a2878bb7-1d30-42ee-a3b5-a4c648df7ba7",
+                        "hasValidationError" : false,
+                        "id" : "pbInput"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 4,
+                          "sm" : 4,
+                          "md" : 4,
+                          "lg" : 4
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "<b>Trabajo de titulación terminado</b>"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 5"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "right"
+                          }
+                        },
+                        "reference" : "115771c4-be2e-4f8e-b649-1a1fbbaa9aa2",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      },
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 8,
+                          "sm" : 8,
+                          "md" : 8,
+                          "lg" : 8
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "type" : {
+                            "type" : "constant",
+                            "value" : "Process document"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "document" : {
+                            "type" : "variable",
+                            "value" : "context.doc_trabajo_titulacion_ref"
+                          },
+                          "showPreview" : {
+                            "type" : "constant",
+                            "value" : false
+                          }
+                        },
+                        "reference" : "e03c4a0f-23c9-4c93-994b-51600021c342",
+                        "hasValidationError" : false,
+                        "id" : "pbFileViewer"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 4,
+                          "sm" : 4,
+                          "md" : 4,
+                          "lg" : 4
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "<b>Resolución de aprobación del protocolo"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 5"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "right"
+                          }
+                        },
+                        "reference" : "39ce5a75-f45e-4dcf-b271-7d0e644b4e53",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      },
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 8,
+                          "sm" : 8,
+                          "md" : 8,
+                          "lg" : 8
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "type" : {
+                            "type" : "constant",
+                            "value" : "Process document"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "document" : {
+                            "type" : "variable",
+                            "value" : "context.resolucion_aprobacion_protocolo_ref"
+                          },
+                          "showPreview" : {
+                            "type" : "constant",
+                            "value" : false
+                          }
+                        },
+                        "reference" : "39cc4faf-b7b1-46db-a3ee-c2befb3dad3f",
+                        "hasValidationError" : false,
+                        "id" : "pbFileViewer"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 4,
+                          "sm" : 4,
+                          "md" : 4,
+                          "lg" : 4
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "expression",
+                            "value" : "titulacion.necesita_cambiar_tema_tutor!=true"
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "<b>Resolución de cambios en el trabajo de titulación"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 5"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "right"
+                          }
+                        },
+                        "reference" : "b7d3f26d-a063-409c-acc0-0753e23697a1",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      },
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 8,
+                          "sm" : 8,
+                          "md" : 8,
+                          "lg" : 8
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "expression",
+                            "value" : "titulacion.necesita_cambiar_tema_tutor!=true"
+                          },
+                          "type" : {
+                            "type" : "constant",
+                            "value" : "Process document"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "document" : {
+                            "type" : "variable",
+                            "value" : "context.resolucion_cambio_tema_director_ref"
+                          },
+                          "showPreview" : {
+                            "type" : "constant",
+                            "value" : false
+                          }
+                        },
+                        "reference" : "8033a674-7f2a-4257-bfd9-5bc631d8adfe",
+                        "hasValidationError" : false,
+                        "id" : "pbFileViewer"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 4,
+                          "sm" : 4,
+                          "md" : 4,
+                          "lg" : 4
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "expression",
+                            "value" : "titulacion.aprob_prorroga_tesis!=true"
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "<b>Resolución de prorroga del trabajo de titulación"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 5"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "right"
+                          }
+                        },
+                        "reference" : "c454c934-d2ce-46c0-ae7b-d11eff9e6998",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      },
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 8,
+                          "sm" : 8,
+                          "md" : 8,
+                          "lg" : 8
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "expression",
+                            "value" : "titulacion.aprob_prorroga_tesis!=true"
+                          },
+                          "type" : {
+                            "type" : "constant",
+                            "value" : "Process document"
+                          },
+                          "url" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "document" : {
+                            "type" : "variable",
+                            "value" : "context.resolucion_autorizacion_prorroga_ref"
+                          },
+                          "showPreview" : {
+                            "type" : "constant",
+                            "value" : false
+                          }
+                        },
+                        "reference" : "8bf86de2-9daa-4716-a0eb-b47f6d911ec0",
+                        "hasValidationError" : false,
+                        "id" : "pbFileViewer"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "text" : {
+                            "type" : "interpolation",
+                            "value" : "Designar  el tribunal a cargo del trabajo de titulación"
+                          },
+                          "level" : {
+                            "type" : "constant",
+                            "value" : "Level 4"
+                          },
+                          "alignment" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          }
+                        },
+                        "reference" : "81f1996e-39a3-4d1a-a526-5f235cc4f4cf",
+                        "hasValidationError" : false,
+                        "id" : "pbTitle"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "disabled" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Seleccione el presidente del tribunal"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 4
+                          },
+                          "placeholder" : {
+                            "type" : "interpolation",
+                            "value" : "Seleccione un docente"
+                          },
+                          "availableValues" : {
+                            "type" : "expression",
+                            "value" : "docentes"
+                          },
+                          "displayedKey" : {
+                            "type" : "constant",
+                            "value" : "userName"
+                          },
+                          "returnedKey" : {
+                            "type" : "constant",
+                            "value" : "userName"
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "titulacion.presidente_tribunal_id"
+                          }
+                        },
+                        "reference" : "ee218c49-e138-4af2-a049-90fd37323dac",
+                        "hasValidationError" : false,
+                        "id" : "pbSelect"
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "component",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "disabled" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "required" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "labelHidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "label" : {
+                            "type" : "interpolation",
+                            "value" : "Seleccione el miembro del tribunal"
+                          },
+                          "labelPosition" : {
+                            "type" : "constant",
+                            "value" : "left"
+                          },
+                          "labelWidth" : {
+                            "type" : "constant",
+                            "value" : 4
+                          },
+                          "placeholder" : {
+                            "type" : "interpolation",
+                            "value" : "Seleccione un docente"
+                          },
+                          "availableValues" : {
+                            "type" : "expression",
+                            "value" : "docentes"
+                          },
+                          "displayedKey" : {
+                            "type" : "constant",
+                            "value" : "userName"
+                          },
+                          "returnedKey" : {
+                            "type" : "constant",
+                            "value" : "userName"
+                          },
+                          "value" : {
+                            "type" : "variable",
+                            "value" : "titulacion.miembro_tribunal_id"
+                          }
+                        },
+                        "reference" : "787a2395-47b4-4f83-82b8-5928257c0bcd",
+                        "hasValidationError" : false,
+                        "id" : "pbSelect"
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "cc0cd53e-2cd7-468b-80c9-2feba01b0295",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "e9934f24-bd1c-4b80-8680-923a2982fffa",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "9ff19e3e-5364-409f-9717-66386d9ad522",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "f4b6d647-f5c4-412c-b064-a30415752501",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.titulacion ){",
+        "\treturn {",
+        "\t\t//map titulacion variable to expected task contract input",
+        "\t\ttitulacionInput: {",
+        "\t\t\tpresidente_tribunal_id: $data.titulacion.presidente_tribunal_id !== undefined ? $data.titulacion.presidente_tribunal_id : null,",
+        "\t\t\tmiembro_tribunal_id: $data.titulacion.miembro_tribunal_id !== undefined ? $data.titulacion.miembro_tribunal_id : null",
+        "\t\t}",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "titulacion" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.titulacion_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "docentes" : {
+      "type" : "url",
+      "value" : [
+        "../API/identity/user?p=0&c=100&f=group_id%3d{{docentes_grupo[0].id}}"
+      ],
+      "advancedOptions" : { },
+      "exposed" : false
+    },
+    "docentes_grupo" : {
+      "type" : "url",
+      "value" : [
+        "../API/identity/group?p=0&c=100&f=name%3dDocentes"
+      ],
+      "advancedOptions" : { },
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "aad1fb9c-b62f-4091-ad55-f025b544af1a",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

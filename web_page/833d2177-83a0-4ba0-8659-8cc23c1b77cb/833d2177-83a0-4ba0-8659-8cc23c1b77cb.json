@@ -1,0 +1,197 @@
+{
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "1.2.19",
+  "id" : "833d2177-83a0-4ba0-8659-8cc23c1b77cb",
+  "name" : "d3RadarChartPage",
+  "lastUpdate" : 1649041908299,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "d3 Radar Chart"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "6c3d1a56-f34d-48ca-a0f9-d601828b2101",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "chartData" : {
+            "type" : "expression",
+            "value" : "chartData"
+          },
+          "chartLegendOptions" : {
+            "type" : "expression",
+            "value" : "chartLegendOptions"
+          },
+          "chartOptions" : {
+            "type" : "expression",
+            "value" : "chartOptions"
+          }
+        },
+        "reference" : "887c8e0b-4ad1-470a-b5a6-38ced98ca458",
+        "hasValidationError" : false,
+        "id" : "customD3RadarChartWidget"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "e344f2e1-6b00-45dc-b84d-a705d6635800",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "df712c0f-9185-4e34-a693-251f5ec4d851",
+      "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+      "type" : "js",
+      "order" : 2,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "chartOptions" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"w\": 500,\r",
+        "  \"h\": 500,\r",
+        "  \"maxValue\": 0.7,\r",
+        "  \"levels\": 7,\r",
+        "  \"ExtraWidthX\": 300,\r",
+        "  \"numberStyle\": \"number\"\r",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "chartData" : {
+      "type" : "json",
+      "value" : [
+        "[\r",
+        "\t\t  [\r",
+        "\t\t\t{\"axis\":\"Email\",\"value\":0.59},\r",
+        "\t\t\t{\"axis\":\"Social Networks\",\"value\":0.56},\r",
+        "\t\t\t{\"axis\":\"Internet Banking\",\"value\":0.42},\r",
+        "\t\t\t{\"axis\":\"News Sportsites\",\"value\":0.34},\r",
+        "\t\t\t{\"axis\":\"Search Engine\",\"value\":0.48},\r",
+        "\t\t\t{\"axis\":\"View Shopping sites\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"Paying Online\",\"value\":0.11},\r",
+        "\t\t\t{\"axis\":\"Buy Online\",\"value\":0.05},\r",
+        "\t\t\t{\"axis\":\"Stream Music\",\"value\":0.07},\r",
+        "\t\t\t{\"axis\":\"Online Gaming\",\"value\":0.12},\r",
+        "\t\t\t{\"axis\":\"Navigation\",\"value\":0.27},\r",
+        "\t\t\t{\"axis\":\"App connected to TV program\",\"value\":0.03},\r",
+        "\t\t\t{\"axis\":\"Offline Gaming\",\"value\":0.12},\r",
+        "\t\t\t{\"axis\":\"Photo Video\",\"value\":0.4},\r",
+        "\t\t\t{\"axis\":\"Reading\",\"value\":0.03},\r",
+        "\t\t\t{\"axis\":\"Listen Music\",\"value\":0.22},\r",
+        "\t\t\t{\"axis\":\"Watch TV\",\"value\":0.03},\r",
+        "\t\t\t{\"axis\":\"TV Movies Streaming\",\"value\":0.03},\r",
+        "\t\t\t{\"axis\":\"Listen Radio\",\"value\":0.07},\r",
+        "\t\t\t{\"axis\":\"Sending Money\",\"value\":0.18},\r",
+        "\t\t\t{\"axis\":\"Other\",\"value\":0.07},\r",
+        "\t\t\t{\"axis\":\"Use less Once week\",\"value\":0.08}\r",
+        "\t\t  ],[\r",
+        "\t\t\t{\"axis\":\"Email\",\"value\":0.48},\r",
+        "\t\t\t{\"axis\":\"Social Networks\",\"value\":0.41},\r",
+        "\t\t\t{\"axis\":\"Internet Banking\",\"value\":0.27},\r",
+        "\t\t\t{\"axis\":\"News Sportsites\",\"value\":0.28},\r",
+        "\t\t\t{\"axis\":\"Search Engine\",\"value\":0.46},\r",
+        "\t\t\t{\"axis\":\"View Shopping sites\",\"value\":0.29},\r",
+        "\t\t\t{\"axis\":\"Paying Online\",\"value\":0.11},\r",
+        "\t\t\t{\"axis\":\"Buy Online\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"Stream Music\",\"value\":0.05},\r",
+        "\t\t\t{\"axis\":\"Online Gaming\",\"value\":0.19},\r",
+        "\t\t\t{\"axis\":\"Navigation\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"App connected to TV program\",\"value\":0.06},\r",
+        "\t\t\t{\"axis\":\"Offline Gaming\",\"value\":0.24},\r",
+        "\t\t\t{\"axis\":\"Photo Video\",\"value\":0.17},\r",
+        "\t\t\t{\"axis\":\"Reading\",\"value\":0.15},\r",
+        "\t\t\t{\"axis\":\"Listen Music\",\"value\":0.12},\r",
+        "\t\t\t{\"axis\":\"Watch TV\",\"value\":0.1},\r",
+        "\t\t\t{\"axis\":\"TV Movies Streaming\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"Listen Radio\",\"value\":0.06},\r",
+        "\t\t\t{\"axis\":\"Sending Money\",\"value\":0.16},\r",
+        "\t\t\t{\"axis\":\"Other\",\"value\":0.07},\r",
+        "\t\t\t{\"axis\":\"Use less Once week\",\"value\":0.17}\r",
+        "\t\t  ],[\r",
+        "\t\t\t{\"axis\":\"Email\",\"value\":0.15},\r",
+        "\t\t\t{\"axis\":\"Social Networks\",\"value\":0.21},\r",
+        "\t\t\t{\"axis\":\"Internet Banking\",\"value\":0.12},\r",
+        "\t\t\t{\"axis\":\"News Sportsites\",\"value\":0.23},\r",
+        "\t\t\t{\"axis\":\"Search Engine\",\"value\":0.23},\r",
+        "\t\t\t{\"axis\":\"View Shopping sites\",\"value\":0.11},\r",
+        "\t\t\t{\"axis\":\"Paying Online\",\"value\":0.11},\r",
+        "\t\t\t{\"axis\":\"Buy Online\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"Stream Music\",\"value\":0.05},\r",
+        "\t\t\t{\"axis\":\"Online Gaming\",\"value\":0.19},\r",
+        "\t\t\t{\"axis\":\"Navigation\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"App connected to TV program\",\"value\":0.06},\r",
+        "\t\t\t{\"axis\":\"Offline Gaming\",\"value\":0.24},\r",
+        "\t\t\t{\"axis\":\"Photo Video\",\"value\":0.17},\r",
+        "\t\t\t{\"axis\":\"Reading\",\"value\":0.15},\r",
+        "\t\t\t{\"axis\":\"Listen Music\",\"value\":0.12},\r",
+        "\t\t\t{\"axis\":\"Watch TV\",\"value\":0.1},\r",
+        "\t\t\t{\"axis\":\"TV Movies Streaming\",\"value\":0.14},\r",
+        "\t\t\t{\"axis\":\"Listen Radio\",\"value\":0.06},\r",
+        "\t\t\t{\"axis\":\"Sending Money\",\"value\":0.16},\r",
+        "\t\t\t{\"axis\":\"Other\",\"value\":0.07},\r",
+        "\t\t\t{\"axis\":\"Use less Once week\",\"value\":0.17}\r",
+        "\t\t  ]\r",
+        "\t\t]"
+      ],
+      "exposed" : false
+    },
+    "chartLegendOptions" : {
+      "type" : "json",
+      "value" : [
+        "[\"Smartphone\",\"Tablet\",\"Computer\"]"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "833d2177-83a0-4ba0-8659-8cc23c1b77cb",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}

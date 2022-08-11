@@ -1,0 +1,1128 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "DeclararIdoneidad",
+  "name" : "DeclararIdoneidad",
+  "lastUpdate" : 1650933191294,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "86308584-af98-4f7f-8791-2908dd9b2ddf",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Declaración de idoneidad del estudiante y remisión de expedientes incluido la declaratoria de idoneidad"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "9efac3b7-cc53-46fe-87b6-d7449ccff3c2",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "bf438fad-3b30-4769-9f44-e96142b14337",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "7d9b20c4-5ec5-4ed8-aa55-66216f76c96f",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "96b7bb4b-8573-4cf7-a854-c8794e28826e",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "2929096e-c23f-4af0-8c59-a29e9c3913f0",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Documentación del estudiante"
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 4"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "1edbdf67-3516-4f9d-9f2a-36904040f710",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Solicitud de idoneidad dirigida al decano de la facultad"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "1a6abcd4-5a73-4934-be55-bc119248d151",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_solicitud_decano_idoneidad_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "fb925025-d178-4cd5-b7b1-2abedcc351d0",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Certificado de culminación de estudios de la carrera correspondiente"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "ee180f61-1b51-4399-bb83-4afc61bf3e86",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_certificado_culminacion_carrera_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "39a9cdb8-f2d3-4a17-9624-2a2955e8336e",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Certificado de cumplimiento de prácticas pre profesionales, servicio administrativo y vinculación con la sociedad"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "922a0401-c37b-4820-9311-120996e0b23b",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_certificado_practicas_servicio_vinculacion_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "11a6ba0f-a71d-474f-b046-0f3115f84005",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Certificado de no adeudar valores a la Universidad de Cuenca"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "8bdb4bc3-d2f6-4794-bec4-555c2389fcb1",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_certificado_no_adeudar_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "818321c4-1a8d-4b18-a79e-6985237d69ee",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Certificado de no adeudar libros a la biblioteca de la Universidad"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "06b89ced-28fa-4448-865b-e707aedcab53",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_certificado_nodeber_libros_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "460cb1fd-39ba-4081-848d-0cbc5958b0f5",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Copia del comprobante de pago de prorroga de periodo adicionar (si es pertinente)"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "d97e66f9-6243-48d7-979e-97313e1a456c",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_comprobante_pago_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "f9b8a4da-4b0f-4bbf-b536-68f95c374428",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Comprobante de pago del curso de actualización de conocimientos (si es pertinente)"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "147df3fd-85ab-49b3-842b-7f6a9ea6c673",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_comprobante_pago_curso_actualizacion_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "076e874f-4808-498a-9133-80f69232affd",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 5"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "<b>Certificado de aprobación del curso de actualización de conocimiento (si es pertinente)"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "980e7c5e-c20a-46e6-a37d-378434fbdce2",
+                      "hasValidationError" : false,
+                      "id" : "pbTitle",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "showPreview" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "document" : {
+                          "type" : "variable",
+                          "value" : "context.doc_certificado_aprobacion_curso_actualizacion_ref"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "url" : {
+                          "type" : "constant"
+                        }
+                      },
+                      "reference" : "9b536fb9-1fa0-4ab4-83a8-4153cbe5bfae",
+                      "hasValidationError" : false,
+                      "id" : "pbFileViewer",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "47dce7a2-2c32-4251-8a92-8813bc2ef5c7",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "ef27198d-096f-48a5-b4d1-364059036084",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "8082f252-c803-4ab8-9230-f0c386415f12",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "eeb3f087-dfd6-4477-b136-3a7bcb21f4b2",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.context ){",
+        "\treturn {",
+        "\t\tdoc_solicitud_decano_idoneidadDocumentInput: {",
+        "\t\t\tid: $data.context.doc_solicitud_decano_idoneidad_ref && $data.context.doc_solicitud_decano_idoneidad_ref.id ? $data.context.doc_solicitud_decano_idoneidad_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_solicitud_decano_idoneidad_ref.newValue && $data.context.doc_solicitud_decano_idoneidad_ref.newValue.filename ? $data.context.doc_solicitud_decano_idoneidad_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_solicitud_decano_idoneidad_ref.newValue && $data.context.doc_solicitud_decano_idoneidad_ref.newValue.tempPath ? $data.context.doc_solicitud_decano_idoneidad_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_solicitud_decano_idoneidad_ref.newValue && $data.context.doc_solicitud_decano_idoneidad_ref.newValue.contentType ? $data.context.doc_solicitud_decano_idoneidad_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_certificado_culminacion_carreraDocumentInput: {",
+        "\t\t\tid: $data.context.doc_certificado_culminacion_carrera_ref && $data.context.doc_certificado_culminacion_carrera_ref.id ? $data.context.doc_certificado_culminacion_carrera_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_certificado_culminacion_carrera_ref.newValue && $data.context.doc_certificado_culminacion_carrera_ref.newValue.filename ? $data.context.doc_certificado_culminacion_carrera_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_certificado_culminacion_carrera_ref.newValue && $data.context.doc_certificado_culminacion_carrera_ref.newValue.tempPath ? $data.context.doc_certificado_culminacion_carrera_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_certificado_culminacion_carrera_ref.newValue && $data.context.doc_certificado_culminacion_carrera_ref.newValue.contentType ? $data.context.doc_certificado_culminacion_carrera_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_certificado_practicas_servicio_vincDocInput: {",
+        "\t\t\tid: $data.context.doc_certificado_practicas_servicio_vinc_ref && $data.context.doc_certificado_practicas_servicio_vinc_ref.id ? $data.context.doc_certificado_practicas_servicio_vinc_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue && $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue.filename ? $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue && $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue.tempPath ? $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue && $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue.contentType ? $data.context.doc_certificado_practicas_servicio_vinc_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_certificado_no_adeudarDocumentInput: {",
+        "\t\t\tid: $data.context.doc_certificado_no_adeudar_ref && $data.context.doc_certificado_no_adeudar_ref.id ? $data.context.doc_certificado_no_adeudar_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_certificado_no_adeudar_ref.newValue && $data.context.doc_certificado_no_adeudar_ref.newValue.filename ? $data.context.doc_certificado_no_adeudar_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_certificado_no_adeudar_ref.newValue && $data.context.doc_certificado_no_adeudar_ref.newValue.tempPath ? $data.context.doc_certificado_no_adeudar_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_certificado_no_adeudar_ref.newValue && $data.context.doc_certificado_no_adeudar_ref.newValue.contentType ? $data.context.doc_certificado_no_adeudar_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_certificado_nodeber_librosDocumentInput: {",
+        "\t\t\tid: $data.context.doc_certificado_nodeber_libros_ref && $data.context.doc_certificado_nodeber_libros_ref.id ? $data.context.doc_certificado_nodeber_libros_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_certificado_nodeber_libros_ref.newValue && $data.context.doc_certificado_nodeber_libros_ref.newValue.filename ? $data.context.doc_certificado_nodeber_libros_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_certificado_nodeber_libros_ref.newValue && $data.context.doc_certificado_nodeber_libros_ref.newValue.tempPath ? $data.context.doc_certificado_nodeber_libros_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_certificado_nodeber_libros_ref.newValue && $data.context.doc_certificado_nodeber_libros_ref.newValue.contentType ? $data.context.doc_certificado_nodeber_libros_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_comprobante_pagoDocumentInput: {",
+        "\t\t\tid: $data.context.doc_comprobante_pago_ref && $data.context.doc_comprobante_pago_ref.id ? $data.context.doc_comprobante_pago_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_comprobante_pago_ref.newValue && $data.context.doc_comprobante_pago_ref.newValue.filename ? $data.context.doc_comprobante_pago_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_comprobante_pago_ref.newValue && $data.context.doc_comprobante_pago_ref.newValue.tempPath ? $data.context.doc_comprobante_pago_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_comprobante_pago_ref.newValue && $data.context.doc_comprobante_pago_ref.newValue.contentType ? $data.context.doc_comprobante_pago_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_comprobante_pago_curso_actualDocInput: {",
+        "\t\t\tid: $data.context.doc_comprobante_pago_curso_actualizacion_ref && $data.context.doc_comprobante_pago_curso_actualizacion_ref.id ? $data.context.doc_comprobante_pago_curso_actualizacion_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue && $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue.filename ? $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue && $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue.tempPath ? $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue && $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue.contentType ? $data.context.doc_comprobante_pago_curso_actualizacion_ref.newValue.contentType : null",
+        "\t\t},",
+        "\t\tdoc_certificado_aprob_curso_actualDocInput: {",
+        "\t\t\tid: $data.context.doc_certificado_aprobacion_curso_actualizacion_ref && $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.id ? $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.id.toString() : null,",
+        "\t\t\tfilename: $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue && $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue.filename ? $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue.filename : null,",
+        "\t\t\ttempPath: $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue && $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue.tempPath ? $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue.tempPath : null,",
+        "\t\t\tcontentType: $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue && $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue.contentType ? $data.context.doc_certificado_aprobacion_curso_actualizacion_ref.newValue.contentType : null",
+        "\t\t}",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "e729958f-65ab-4d46-a302-8fffc20303ce",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

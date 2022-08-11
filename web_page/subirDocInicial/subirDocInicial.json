@@ -1,0 +1,889 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "subirDocInicial",
+  "name" : "subirDocInicial",
+  "lastUpdate" : 1648611972456,
+  "rows" : [
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "b153439f-d40d-47e2-b34b-0c15b9c0d320",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "f530a063-c1fa-41d9-b5c5-ef07ed3d7130",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 1"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Registro para la aprobación de temas de  trabajos de titulación"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "7cbc426c-da06-4c9f-b5e1-cdb2eccc46dc",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "formContainer",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "74a5a76b-a539-4a9d-ae23-c3e1b4371fae",
+                "hasValidationError" : false,
+                "id" : "pbFormContainer",
+                "container" : {
+                  "type" : "container",
+                  "dimension" : {
+                    "xs" : 12
+                  },
+                  "propertyValues" : { },
+                  "reference" : "56586604-96d1-4cb9-a1d8-7dc9d05e1b1e",
+                  "hasValidationError" : false,
+                  "id" : "pbContainer",
+                  "rows" : [
+                    [
+                      {
+                        "type" : "container",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "repeatedCollection" : {
+                            "type" : "variable",
+                            "value" : ""
+                          }
+                        },
+                        "reference" : "ff273251-13a1-49f6-a993-7d179589493f",
+                        "hasValidationError" : false,
+                        "id" : "pbContainer",
+                        "rows" : [
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "xs" : 12,
+                                "sm" : 12,
+                                "md" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "text" : {
+                                  "type" : "interpolation",
+                                  "value" : "Información del estudiante"
+                                },
+                                "level" : {
+                                  "type" : "constant",
+                                  "value" : "Level 4"
+                                },
+                                "alignment" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                }
+                              },
+                              "reference" : "ac810144-15e6-4d1e-a170-643f736255c8",
+                              "hasValidationError" : false,
+                              "id" : "pbTitle"
+                            }
+                          ],
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "md" : 12,
+                                "sm" : 12,
+                                "xs" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "labelHidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "labelPosition" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                },
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "labelWidth" : {
+                                  "type" : "constant",
+                                  "value" : 4
+                                },
+                                "readOnly" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "label" : {
+                                  "type" : "interpolation",
+                                  "value" : "Cedula de identidad"
+                                },
+                                "placeholder" : {
+                                  "type" : "constant",
+                                  "value" : "0102849344"
+                                },
+                                "type" : {
+                                  "type" : "constant",
+                                  "value" : "text"
+                                },
+                                "dimension" : {
+                                  "type" : "constant",
+                                  "value" : 12
+                                },
+                                "value" : {
+                                  "type" : "variable",
+                                  "value" : "formInput.titulacionInput.ci_estudiante"
+                                },
+                                "required" : {
+                                  "type" : "constant",
+                                  "value" : true
+                                },
+                                "minLength" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "maxLength" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "min" : {
+                                  "type" : "constant"
+                                },
+                                "max" : {
+                                  "type" : "constant"
+                                },
+                                "step" : {
+                                  "type" : "constant",
+                                  "value" : 1
+                                }
+                              },
+                              "reference" : "518646d6-0c96-4882-9fdb-4f8d4dc71ef2",
+                              "hasValidationError" : false,
+                              "id" : "pbInput",
+                              "description" : ""
+                            }
+                          ],
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "md" : 12,
+                                "sm" : 12,
+                                "xs" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "labelHidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "labelPosition" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                },
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "labelWidth" : {
+                                  "type" : "constant",
+                                  "value" : 4
+                                },
+                                "readOnly" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "label" : {
+                                  "type" : "interpolation",
+                                  "value" : "Correo estudiantil"
+                                },
+                                "placeholder" : {
+                                  "type" : "constant",
+                                  "value" : "example@ucuenca.edu.ec"
+                                },
+                                "type" : {
+                                  "type" : "constant",
+                                  "value" : "email"
+                                },
+                                "dimension" : {
+                                  "type" : "constant",
+                                  "value" : 12
+                                },
+                                "value" : {
+                                  "type" : "variable",
+                                  "value" : "formInput.titulacionInput.correo_estudiante"
+                                },
+                                "required" : {
+                                  "type" : "constant",
+                                  "value" : true
+                                },
+                                "minLength" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "maxLength" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "min" : {
+                                  "type" : "constant"
+                                },
+                                "max" : {
+                                  "type" : "constant"
+                                },
+                                "step" : {
+                                  "type" : "constant",
+                                  "value" : 1
+                                }
+                              },
+                              "reference" : "f442eb74-d65d-4b13-b60d-00425ed12871",
+                              "hasValidationError" : false,
+                              "id" : "pbInput",
+                              "description" : ""
+                            }
+                          ]
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "type" : "container",
+                        "dimension" : {
+                          "xs" : 12,
+                          "sm" : 12,
+                          "md" : 12,
+                          "lg" : 12
+                        },
+                        "propertyValues" : {
+                          "cssClasses" : {
+                            "type" : "constant",
+                            "value" : ""
+                          },
+                          "hidden" : {
+                            "type" : "constant",
+                            "value" : false
+                          },
+                          "repeatedCollection" : {
+                            "type" : "variable",
+                            "value" : ""
+                          }
+                        },
+                        "reference" : "b5c0d858-28df-46af-95ec-098651a513cb",
+                        "hasValidationError" : false,
+                        "id" : "pbContainer",
+                        "rows" : [
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "xs" : 12,
+                                "sm" : 12,
+                                "md" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "text" : {
+                                  "type" : "interpolation",
+                                  "value" : "Informacion acerca del trabajo de titulación"
+                                },
+                                "level" : {
+                                  "type" : "constant",
+                                  "value" : "Level 4"
+                                },
+                                "alignment" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                }
+                              },
+                              "reference" : "4bf1b465-aab5-41a1-8ddf-6b656df883ed",
+                              "hasValidationError" : false,
+                              "id" : "pbTitle"
+                            }
+                          ],
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "md" : 12,
+                                "sm" : 12,
+                                "xs" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "readOnly" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "required" : {
+                                  "type" : "constant",
+                                  "value" : true
+                                },
+                                "minLength" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "maxLength" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "labelHidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "label" : {
+                                  "type" : "interpolation",
+                                  "value" : "Tema del trabajo de titulación"
+                                },
+                                "labelPosition" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                },
+                                "labelWidth" : {
+                                  "type" : "constant",
+                                  "value" : 4
+                                },
+                                "value" : {
+                                  "type" : "variable",
+                                  "value" : "formInput.titulacionInput.tema_tesis"
+                                }
+                              },
+                              "reference" : "85841d01-1004-476e-a40d-044e92cdf327",
+                              "hasValidationError" : false,
+                              "id" : "pbTextarea"
+                            }
+                          ],
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "md" : 12,
+                                "sm" : 12,
+                                "xs" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "labelHidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "labelPosition" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                },
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "labelWidth" : {
+                                  "type" : "constant",
+                                  "value" : 4
+                                },
+                                "label" : {
+                                  "type" : "interpolation",
+                                  "value" : "Certificado de estar matriculado o egresado"
+                                },
+                                "placeholder" : {
+                                  "type" : "constant",
+                                  "value" : "Browse to upload a new file..."
+                                },
+                                "dimension" : {
+                                  "type" : "constant",
+                                  "value" : 12
+                                },
+                                "value" : {
+                                  "type" : "variable",
+                                  "value" : "formInput.doc_cerificado_matriculadoDocumentInput"
+                                },
+                                "required" : {
+                                  "type" : "constant",
+                                  "value" : true
+                                },
+                                "url" : {
+                                  "type" : "constant",
+                                  "value" : "../API/formFileUpload"
+                                },
+                                "errorContent" : {
+                                  "type" : "variable",
+                                  "value" : ""
+                                }
+                              },
+                              "reference" : "4a09c70f-fc91-4a55-8207-4b010d4c48b7",
+                              "hasValidationError" : false,
+                              "id" : "pbUpload",
+                              "description" : ""
+                            }
+                          ],
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "md" : 12,
+                                "sm" : 12,
+                                "xs" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "labelHidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "labelPosition" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                },
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "labelWidth" : {
+                                  "type" : "constant",
+                                  "value" : 4
+                                },
+                                "label" : {
+                                  "type" : "interpolation",
+                                  "value" : "Avance de malla (mayor al 80%)"
+                                },
+                                "placeholder" : {
+                                  "type" : "constant",
+                                  "value" : "Browse to upload a new file..."
+                                },
+                                "dimension" : {
+                                  "type" : "constant",
+                                  "value" : 12
+                                },
+                                "value" : {
+                                  "type" : "variable",
+                                  "value" : "formInput.doc_certificado_avance_mallDocumentInput"
+                                },
+                                "required" : {
+                                  "type" : "constant",
+                                  "value" : true
+                                },
+                                "url" : {
+                                  "type" : "constant",
+                                  "value" : "../API/formFileUpload"
+                                },
+                                "errorContent" : {
+                                  "type" : "variable",
+                                  "value" : ""
+                                }
+                              },
+                              "reference" : "8cb88cc6-c36b-49f0-934f-bf63e6cafbd8",
+                              "hasValidationError" : false,
+                              "id" : "pbUpload",
+                              "description" : ""
+                            }
+                          ],
+                          [
+                            {
+                              "type" : "component",
+                              "dimension" : {
+                                "md" : 12,
+                                "sm" : 12,
+                                "xs" : 12,
+                                "lg" : 12
+                              },
+                              "propertyValues" : {
+                                "labelHidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "hidden" : {
+                                  "type" : "constant",
+                                  "value" : false
+                                },
+                                "labelPosition" : {
+                                  "type" : "constant",
+                                  "value" : "left"
+                                },
+                                "cssClasses" : {
+                                  "type" : "constant",
+                                  "value" : ""
+                                },
+                                "labelWidth" : {
+                                  "type" : "constant",
+                                  "value" : 4
+                                },
+                                "label" : {
+                                  "type" : "interpolation",
+                                  "value" : "Formularios de aprobación de tema"
+                                },
+                                "placeholder" : {
+                                  "type" : "constant",
+                                  "value" : "Browse to upload a new file..."
+                                },
+                                "dimension" : {
+                                  "type" : "constant",
+                                  "value" : 12
+                                },
+                                "value" : {
+                                  "type" : "variable",
+                                  "value" : "formInput.doc_formulario_aprobacionDocumentInput"
+                                },
+                                "required" : {
+                                  "type" : "constant",
+                                  "value" : true
+                                },
+                                "url" : {
+                                  "type" : "constant",
+                                  "value" : "../API/formFileUpload"
+                                },
+                                "errorContent" : {
+                                  "type" : "variable",
+                                  "value" : ""
+                                }
+                              },
+                              "reference" : "466c6110-35b2-48e9-bd79-2536bf6a2944",
+                              "hasValidationError" : false,
+                              "id" : "pbUpload",
+                              "description" : ""
+                            }
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Enviar"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Start process"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
+                  }
+                },
+                "reference" : "c043987e-0c85-45ec-85dc-25fb06734eac",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "3b36a87e-13f6-4787-96b9-a33b8d4f3a16",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "e001c864-61d0-43a3-b64a-a75daac91a44",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "83823f9a-8174-42d2-9639-da55eb05a864",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"titulacionInput\" : {\r",
+        "    \"tema_tesis\" : \"\",\r",
+        "    \"ci_estudiante\" : \"\",\r",
+        "    \"correo_estudiante\" : \"\"\r",
+        "  },\r",
+        "  \"doc_cerificado_matriculadoDocumentInput\" : null,\r",
+        "  \"doc_certificado_avance_mallDocumentInput\" : null,\r",
+        "  \"doc_formulario_aprobacionDocumentInput\" : null\r",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "\ttitulacionInput: $data.formInput.titulacionInput,",
+        "\tdoc_cerificado_matriculadoDocumentInput: $data.formInput.doc_cerificado_matriculadoDocumentInput,",
+        "\tdoc_certificado_avance_mallDocumentInput: $data.formInput.doc_certificado_avance_mallDocumentInput,",
+        "\tdoc_formulario_aprobacionDocumentInput: $data.formInput.doc_formulario_aprobacionDocumentInput",
+        "}"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "aac119b0-aa87-4224-9233-22bf2025d852",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

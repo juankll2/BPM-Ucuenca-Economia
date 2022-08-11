@@ -1,0 +1,51 @@
+{
+  "modelVersion" : "2.2",
+  "properties" : [
+    {
+      "label" : "ChartData",
+      "name" : "chartData",
+      "type" : "text",
+      "defaultValue" : "chartData",
+      "bond" : "expression"
+    },
+    {
+      "label" : "chartLegendOptions",
+      "name" : "chartLegendOptions",
+      "type" : "text",
+      "defaultValue" : "chartLegendOptions",
+      "bond" : "expression"
+    },
+    {
+      "label" : "chartOptions",
+      "name" : "chartOptions",
+      "type" : "text",
+      "defaultValue" : "chartOptions",
+      "bond" : "expression"
+    }
+  ],
+  "id" : "customD3RadarChartWidget",
+  "name" : "d3RadarChartWidget",
+  "lastUpdate" : 1649041908288,
+  "template" : "@customD3RadarChartWidget.tpl.html",
+  "controller" : "@customD3RadarChartWidget.ctrl.js",
+  "custom" : true,
+  "assets" : [
+    {
+      "id" : "d2c440a5-18ff-4d26-bd2b-0432e3310494",
+      "name" : "RadarChart.js",
+      "type" : "js",
+      "order" : 12,
+      "external" : false
+    },
+    {
+      "id" : "18294802-a43a-4f5e-a6a1-c360b453d542",
+      "name" : "d3.v3.min.js",
+      "type" : "js",
+      "order" : 2,
+      "external" : false
+    }
+  ],
+  "requiredModules" : [ ],
+  "type" : "widget",
+  "hasHelp" : false
+}

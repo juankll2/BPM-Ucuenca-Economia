@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="OrganizationTest" description="Esto es una organizacion de prueba">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="ricardo.jarro">
+      <firstName>Ricardo</firstName>
+      <lastName>Jarro</lastName>
+      <personalData>
+        <email>jaio1998619@gmail.com</email>
+      </personalData>
+      <professionalData>
+        <email>ricardo.jarro98@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="juan.lazo">
+      <firstName>Juan</firstName>
+      <lastName>Lazo</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="kevin.sanchez">
+      <firstName>Kevin</firstName>
+      <lastName>Sanchez</lastName>
+      <personalData>
+        <email>kevinsanchez@gmail.com</email>
+      </personalData>
+      <professionalData>
+        <email>kevinsanchez@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="fernanda.cabrera">
+      <firstName>Fernanda</firstName>
+      <lastName>Cabrera</lastName>
+      <personalData>
+        <email>fercabrera@gmail.com</email>
+      </personalData>
+      <professionalData>
+        <email>fernandacabrera@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="maria.gonzales">
+      <firstName>Maria</firstName>
+      <lastName>Gonzales</lastName>
+      <personalData>
+        <email>mariagonzales98@gmail.com</email>
+      </personalData>
+      <professionalData>
+        <email>maria.gonzales@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="analista.titulacion">
+      <firstName>Analista</firstName>
+      <lastName>Titulacion </lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">analista1234</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="analista.titulacion2">
+      <firstName>Analista</firstName>
+      <lastName>Titulacion 2</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="secretaria.abogada">
+      <firstName>Secretaria</firstName>
+      <lastName>Abogada</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="consejo.directivo">
+      <firstName>Consejo</firstName>
+      <lastName>Directivo</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="subcomision.titulacion">
+      <firstName>Subcomision</firstName>
+      <lastName>Titulacion</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="subdecanato">
+      <firstName>Subdecanato</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="analista.carrera">
+      <firstName>Analista</firstName>
+      <lastName>Carrera</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="docente.1">
+      <firstName>Docente</firstName>
+      <lastName>1</lastName>
+      <personalData/>
+      <professionalData>
+        <email>docente1@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="docente.2">
+      <firstName>Docente</firstName>
+      <lastName>2</lastName>
+      <personalData/>
+      <professionalData>
+        <email>docente2@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="docente.3">
+      <firstName>Docente</firstName>
+      <lastName>3</lastName>
+      <personalData/>
+      <professionalData>
+        <email>docente3@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="docente.4">
+      <firstName>Docente</firstName>
+      <lastName>4</lastName>
+      <personalData/>
+      <professionalData>
+        <email>docente4@ucuenca.edu.ec</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Miembro">
+      <displayName>Miembro</displayName>
+    </role>
+    <role name="Admin">
+      <displayName>Admin</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Estudiantes">
+      <displayName>Estudiantes</displayName>
+    </group>
+    <group name="Docentes">
+      <displayName>Docentes</displayName>
+    </group>
+    <group name="PersonalAdministrativo">
+      <displayName>Personal Administrativo</displayName>
+    </group>
+    <group name="Analista de Titulacion" parentPath="/PersonalAdministrativo">
+      <displayName>Analista de Titulacion</displayName>
+    </group>
+    <group name="Subcomision de Titulacion" parentPath="/PersonalAdministrativo">
+      <displayName>Subcomision de Titulacion</displayName>
+    </group>
+    <group name="Secretaria-abogada" parentPath="/PersonalAdministrativo">
+      <displayName>Secretaria Abogada</displayName>
+    </group>
+    <group name="Consejo Directivo" parentPath="/PersonalAdministrativo">
+      <displayName>Consejo Directivo</displayName>
+    </group>
+    <group name="Subdecanato" parentPath="/PersonalAdministrativo">
+      <displayName>Subdecanato</displayName>
+    </group>
+    <group name="Analista de carrera" parentPath="/PersonalAdministrativo">
+      <displayName>Analista de carrera</displayName>
+    </group>
+    <group name="GruposTitulacion">
+      <displayName>GruposTitulacion</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>ricardo.jarro</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Estudiantes</groupName>
+    </membership>
+    <membership>
+      <userName>juan.lazo</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Estudiantes</groupName>
+    </membership>
+    <membership>
+      <userName>kevin.sanchez</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Estudiantes</groupName>
+    </membership>
+    <membership>
+      <userName>fernanda.cabrera</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Estudiantes</groupName>
+    </membership>
+    <membership>
+      <userName>maria.gonzales</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Estudiantes</groupName>
+    </membership>
+    <membership>
+      <userName>analista.titulacion</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Analista de Titulacion</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>analista.titulacion2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Analista de Titulacion</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>secretaria.abogada</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Secretaria-abogada</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>consejo.directivo</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Consejo Directivo</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>subcomision.titulacion</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Subcomision de Titulacion</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>subdecanato</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Subdecanato</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>analista.carrera</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Analista de carrera</groupName>
+      <groupParentPath>/PersonalAdministrativo</groupParentPath>
+    </membership>
+    <membership>
+      <userName>docente.1</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Docentes</groupName>
+    </membership>
+    <membership>
+      <userName>docente.2</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Docentes</groupName>
+    </membership>
+    <membership>
+      <userName>docente.3</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Docentes</groupName>
+    </membership>
+    <membership>
+      <userName>docente.4</userName>
+      <roleName>Miembro</roleName>
+      <groupName>Docentes</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

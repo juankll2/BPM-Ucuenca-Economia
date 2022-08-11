@@ -1,0 +1,35 @@
+{
+  "connectorImplementations" : [ {
+    "type" : "CONNECTOR",
+    "className" : "org.bonitasoft.connectors.groovy.GroovyScriptConnector",
+    "implementationId" : "scripting-groovy-script-impl",
+    "implementationVersion" : "1.1.4",
+    "definitionId" : "scripting-groovy-script",
+    "definitionVersion" : "1.0.1",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.connectors",
+      "artifactId" : "bonita-connector-groovy",
+      "version" : "1.1.4",
+      "file" : "C:\\Users\\juank\\.m2\\repository\\org\\bonitasoft\\connectors\\bonita-connector-groovy\\1.1.4\\bonita-connector-groovy-1.1.4.jar"
+    },
+    "jarEntry" : "scripting-groovy-script.impl"
+  } ],
+  "filterImplementations" : [ ],
+  "connectorDefinitions" : [ {
+    "definitionId" : "scripting-groovy-script",
+    "definitionVersion" : "1.0.1",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.connectors",
+      "artifactId" : "bonita-connector-groovy",
+      "version" : "1.1.4",
+      "file" : "C:\\Users\\juank\\.m2\\repository\\org\\bonitasoft\\connectors\\bonita-connector-groovy\\1.1.4\\bonita-connector-groovy-1.1.4.jar"
+    },
+    "jarEntry" : "scripting-groovy-script.def"
+  } ],
+  "filterDefinitions" : [ ],
+  "restApiExtensions" : [ ],
+  "pages" : [ ],
+  "forms" : [ ],
+  "themes" : [ ],
+  "issues" : [ ]
+}

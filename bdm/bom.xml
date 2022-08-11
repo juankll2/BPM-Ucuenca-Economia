@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.14.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Docente">
+            <fields>
+                <field type="STRING" length="255" name="nombre" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="correo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="ci" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Persona">
+            <fields>
+                <field type="STRING" length="255" name="nombre" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="correo" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="ci" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="correo_personal" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="egresado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Sustentacion">
+            <fields>
+                <field type="OFFSETDATETIME" length="255" name="fecha_hora" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="nota" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="observaciones" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="intento" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="asiste_todo_tribunal" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="lugar" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Titulacion">
+            <description></description>
+            <fields>
+                <field type="TEXT" length="255" name="tema_tesis" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="modalidad" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Persona" fetchType="LAZY" name="estudiantes" nullable="true" collection="true"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Persona" fetchType="LAZY" name="docente_emite_informe" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="inf_pertinencia" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprob_tema" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aprob_tema_desc" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="prorroga_protocolo" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprob_prorroga_protocolo" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="dias_extra_protocolo" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="resolucion_prorroga" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprob_protocolo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aprob_protocolo_desc" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="plazo_terminar_tesis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprob_prorroga_tesis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="a_tiempo_doc_estudiante" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="nota_tesis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="apto_sustentar" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="conforme_nota" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="documentacion_correcta" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_doc_correcta" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aprob_tema_num" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="comentario" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inicio_protocolo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fin_protocolo" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="enviar_correo_trabajo_termiando" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="necesita_cambiar_tema_tutor" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprob_cambio_tema_tutor" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="necesita_segunda_prorroga" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Docente" fetchType="LAZY" name="director" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Docente" fetchType="LAZY" name="nuevo_director" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Docente" fetchType="LAZY" name="tribunal_presidente" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Docente" fetchType="LAZY" name="tribunal_miembro" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Sustentacion" fetchType="LAZY" name="sustentacion" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Docente" fetchType="LAZY" name="director_sugerido" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="doc_prorroga_proto_correcta" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_doc_prorroga_proto_correcta" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="docu_aprobacion_proto_correcta" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_doc_aprobacion_proto_correcta" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="docu_modificacion_tema_director" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="coment_doc_modificacion_tema_director" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobacion_cambio_tema_director" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_aprobacion_cambio_tema_director" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="docu_aprobacion_prorroga_tesis" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_doc_aprobacion_prorroga_tesis" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="prorroga_pago" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="docu_entregatrabajo_titulacion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_docu_entregatrabajo_titulacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="docu_inicial_correcta" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="coment_doc_inicial_correcta" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="resolucion_nuevo_tribunal" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="comentario_recalificacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="doc_trabajo_modificado_correcto" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="sustentacion_documentacion_correcta" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="comentario_doc_trabajo_modificado_correcto" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="comentario_sustentacion_documentacion_correcta" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Docente" fetchType="LAZY" name="profesorFiscal" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="comentario_tirbunal_no_asiste" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="entregar_doc_biblioteca" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="fecha_hora_sustentacion" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="nota_sustentacion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observaciones_sustentacion" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="intento_sustentacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="asiste_todo_tribunal_sustentacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="lugar_sustentacion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observaciones_nota_sustentacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="docu_solicitud_idoneidad" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="coment_doc_solicitud_idoneidad" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inicio_prorroga_protocolo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fin_prorroga_protocolo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inicio_trabajo_titulacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fin_trabajo_titulacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inicio_prorroga_titulacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fin_prorroga_titulacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inicio_pago_prorroga_titulacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fin_pago_prorroga_titulacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="agregar_usuarios" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="agregar_mas_usuarios" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="agregar_docentes" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="agregar_mas_docentes" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="estudiantes_id" nullable="true" collection="true">
+                    <description>estudiantes</description>
+                </field>
+                <field type="TEXT" length="255" name="docente_sugerido_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="docente_para_informe_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nuevo_tema_tesis" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aux_tema_tesis" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aux_director" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="presidente_tribunal_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="miembro_tribunal_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="director_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nuevo_director_id" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="anterior_nota_trabajo_titulacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nuevo_presidente_tribuna_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nuevo_miembro_tribunal_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="estudiante_grupo_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="docente_grupo_id" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estudiante_cumplio_plazo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fecha_entrega_trabajo" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
